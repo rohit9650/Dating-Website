@@ -45,7 +45,7 @@
     background-image: url("1.jpg");
 
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -60,14 +60,14 @@
 
 <div class="video-background">
     <div class="video-foreground">
-      <iframe src="video.mp4" frameborder="0" allowfullscreen></iframe>
+      <iframe src="" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 
 <div id="vidtop-content">
 <div class="vid-info">
 	  <h1>YouTube Fullscreen Background Demo</h1>
-	  
+
   </div>
 </div>
 
