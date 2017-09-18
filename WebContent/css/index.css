@@ -1,74 +1,236 @@
-body {
-  margin: 0;
-  background: #000; 
+@import url("team.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+.clear {
+    zoom: 1;
 }
-video { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
+main {
+    min-height: 540px;
+    max-height: 820px;
+    position: relative;
+    background: #000;
+    overflow: hidden;
+}
+
+.main-slogan {
+    text-align: center;
+    font: 48px/1.2 'Ubuntu','Trebuchet MS',Arial,sans-serif;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+header {
+    height: 80px;
+}
+
+video {
+    object-fit: contain;
+}
+
+main .video_back {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    width: 100%;
     height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
- background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
-  background-size: cover;
-  transition: 1s opacity;
-}
-.stopfade { 
-   opacity: .5;
 }
 
-#polina { 
-  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
-  font-weight:100; 
-  background: rgba(0,0,0,0.3);
-  color: white;
-  padding: 2rem;
-  width: 33%;
-  margin:2rem;
-  float: right;
-  font-size: 1.2rem;
-}
-h1 {
-  font-size: 3rem;
-  text-transform: uppercase;
-  margin-top: 0;
-  letter-spacing: .3rem;
-}
-#polina button { 
-  display: block;
-  width: 80%;
-  padding: .4rem;
-  border: none; 
-  margin: 1rem auto; 
-  font-size: 1.3rem;
-  background: rgba(255,255,255,0.23);
-  color: #fff;
-  border-radius: 3px; 
-  cursor: pointer;
-  transition: .3s background;
-}
-#polina button:hover { 
-   background: rgba(0,0,0,0.5);
+.video-background {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 540px;
+    position: relative;
+    z-index: 1;
 }
 
-a {
+.main-content {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(81,81,81,0.45);
+}
+
+.reg-btns-holder {
+    margin-top: 100px;
+    width: 550px;
+}
+
+.reg-btns-divider {
+    font: 18px/55px 'Ubuntu','Trebuchet MS',Arial,sans-serif;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.clear {
+    zoom: 1;
+}
+
+.or {
+	display:inline;
+	font-size:30px;
+	font-weight:bold;
+	color:white;
+	margin-left:85px;
+
+}
+
+.log-in-btn {
+    transition: all 0.2s ease;
+    display: block;
+    float: right;
+    margin: 40px 40px 0 0;
+    font: 16px/30px 'Ubuntu','Trebuchet MS',Arial,sans-serif;
+    font-weight: bold;
+    background: transparent;
+    text-transform: uppercase;
+    width: 110px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+}
+/***/
+.login-form-holder {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(66,165,245,.8);
+    display: none;
+}
+/****/
+.login-to-reg-btn {
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font: 16px/30px 'Ubuntu','Trebuchet MS',Arial,sans-serif;
+    font-weight: bold;
+    background: transparent;
+    text-transform: uppercase;
+    width: 110px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+}
+/***/
+.login-form-content {
+    max-width: 1170px;
+    margin-top: 30px;
+}
+
+
+.button-e {
   display: inline-block;
-  color: #fff;
-  text-decoration: none;
-  background:rgba(0,0,0,0.5);
-  padding: .5rem;
-  transition: .6s background; 
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  position: relative;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 10px;
+  width: 250px;
+  height:50px;
+  font-weight:500;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left:-80px;
+
 }
-a:hover{
-  background:rgba(0,0,0,0.9);
+
+.button-e span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
-@media screen and (max-width: 500px) { 
-  div{width:70%;} 
+
+.button-e span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
 }
-@media screen and (max-device-width: 800px) {
-  html { background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; }
-  #bgvid { display: none; }
+
+.button-e:hover{
+	background-color: #c71610;
+}
+.button-e:hover span {
+
+  padding-right: 25px;
+}
+
+.button-e:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/***********************************************/
+
+.button-f {
+  display: inline-block;
+  float:right;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 10px;
+  width: 250px;
+  height:50px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-right:-80px;
+}
+
+.button-f span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-f span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-f:hover{
+	background-color: #3b5998;
+}
+.button-f:hover span {
+
+  padding-right: 25px;
+}
+
+.button-f:hover span:after {
+  opacity: 1;
+  right: 0;
 }
