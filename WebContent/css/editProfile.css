@@ -1,0 +1,206 @@
+.editProfile {
+	height: 2000px;
+	width: 100%;
+}
+
+.profileName {
+	height: 200px;
+	padding: 30px;
+	border-bottom: 1px solid grey;
+}
+
+.aboutMe {
+	height: 200px;
+	padding: 30px;
+	border-bottom: 1px solid grey;
+}
+
+.details {
+	height: 200px;
+	padding: 30px;
+	border-bottom: 1px solid grey;
+}
+
+.personality {
+	padding: 30px;
+	height: 950px;
+	border-bottom: 1px solid grey;
+}
+
+.profileName h4, .aboutMe h4, .details h4, .personality h4 {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.editProfileForm {
+	width: 50%;
+	height: 0px;
+	overflow: hidden;
+	transition: .1s;
+}
+
+.editProfileForm label {
+	float: left;
+	font-family: Georgia, Garamond, Palatino, serif;
+}
+
+.editProfileForm input {
+	display: flex;
+	width: 360px;
+	flex-wrap: wrap;
+	border: 1px solid grey;
+	float: left;
+	-webkit-tap-highlight-color: rgba(0,0,0,0.001);
+}
+
+.lookingFor {
+	width: 360px;
+	border: 1px solid grey;
+}
+
+.year, .month, .date {
+	width: 90px;
+	border: 1px solid grey;
+}
+
+.pclose {
+	text-align: center;
+	width: 120px;
+	height: 40px;
+	line-height: 35px;
+	display: block;
+	background-color: white;
+	position: absolute;
+	border: 2px solid grey;
+	top: 29%;
+	left: 80%;
+	animation: 1s;
+	opacity: 0;
+}
+
+.psave {
+	text-align: center;
+	width: 120px;
+	height: 40px;
+	line-height: 35px;
+	display: block;
+	background-color: white;
+	position: absolute;
+	border: 2px solid grey;
+	top: 29%;
+	left: 64%;
+	animation:  1s;
+	opacity: 0;
+}
+
+.aclose {
+	text-align: center;
+	width: 120px;
+	height: 40px;
+	line-height: 35px;
+	display: block;
+	background-color: white;
+	position: absolute;
+	border: 2px solid grey;
+	left: 80%;
+	top: 38%;
+	transition: 1s;
+	opacity: 0;
+}
+
+.asave {
+	text-align: center;
+	width: 120px;
+	height: 40px;
+	line-height: 35px;
+	display: block;
+	background-color: white;
+	position: absolute;
+	border: 2px solid grey;
+	left: 64%;
+	top: 38%;
+	transition: 1s;
+	opacity: 0;
+}
+
+#aboutMeText {
+	width: 360px;
+	opacity: 0;
+}
+
+.dclose {
+	text-align: center;
+	width: 120px;
+	height: 40px;
+	line-height: 35px;
+	display: block;
+	background-color: white;
+	position: absolute;
+	border: 2px solid grey;
+	left: 80%;
+	top: 51%;
+	opacity: 0;
+	transition: 2s;
+}
+
+.dsave {
+	text-align: center;
+	width: 120px;
+	height: 40px;
+	line-height: 35px;
+	display: block;
+	background-color: white;
+	position: absolute;
+	border: 2px solid grey;
+	left: 64%;
+	top: 51%;
+	opacity: 0;
+	transition: 2s;
+}
+
+.prclose {
+	text-align: center;
+	width: 120px;
+	height: 40px;
+	line-height: 35px;
+	display: block;
+	background-color: white;
+	position: absolute;
+	border: 2px solid grey;
+	transition: 1s;
+	left: 80%;
+	top: 61%;
+	opacity: 0;
+}
+
+.prsave {
+	text-align: center;
+	width: 120px;
+	height: 40px;
+	line-height: 35px;
+	display: block;
+	background-color: white;
+	position: absolute;
+	border: 2px solid grey;
+	transition: 1s;
+	left: 64%;
+	top: 61%;
+	opacity: 0;
+}
+
+.orientation,
+.education ,
+.height,
+.relationship_status,
+.built,
+.facial_hair,
+.work_status,
+.weight,
+.glasses {
+	width: 100px;
+}
+
+.personality input {
+	width: 360px;
+}

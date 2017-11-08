@@ -1,8 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
 
-
-
-
 body {
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.5;
@@ -62,6 +59,13 @@ body {
     position: relative;
 }
 
+.test{
+	margin-right:0px;
+	margin-left:200px;
+	
+}
+
+
 .team-hover {
     position: absolute;
     top: 0;
@@ -73,10 +77,11 @@ body {
     background-color: rgba(255, 255, 255, 0.90);
     opacity: 0;
     -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    margin-right: 240px;
+    transition: all 1.5s;
+    margin-right: 230px;
 
 }
+
 .team-member:hover .team-hover .desk {
     top: 35%;
 }
@@ -152,7 +157,7 @@ body {
 
 .fa {
   padding: 5px;
-  font-size: 30px;
+  font-size: 10px;
   width: 15px;
   text-align: center;
   text-decoration: none;

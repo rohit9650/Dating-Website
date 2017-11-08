@@ -1,0 +1,139 @@
+.vd_title-section {
+    background-color: #eaeaea;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.vd_head-section, .vd_content-section, .vd_title-section {
+    padding: 0 20px;
+}
+
+.vd_content-section .row {
+    margin-bottom: 20px;
+}
+
+.vd_info-parent{
+	 width: 100%;
+	 height: 35%;
+    
+}
+
+.panel-bd-top {
+    border-top: 3px solid #1fae66;
+	
+}
+
+element.style {
+}
+@media (min-width: 768px)
+bootstrap.min.css:5
+.col-sm-9 {
+    width: 75%;
+}
+@media (min-width: 768px)
+bootstrap.min.css:5
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+}
+bootstrap.min.css:5
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+bootstrap.min.css:5
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body#pages.full-layout.nav-right-hide.nav-right-start-hide.nav-top-fixed.responsive.clearfix.breakpoint-975.sticky-menu-active
+theme.min.css:2
+body {
+    background-color: #f0f0f0;
+    font-size: 13px;
+    font-family: 'Open Sans','arial';
+    line-height: 23px;
+    font-weight: 400;
+}
+
+.mgbt-xs-5 {
+    margin-bottom: 5px !important;
+}
+
+theme.min.css:2
+.font-semibold {
+    font-weight: 800;
+}
+
+
+
+.vd_bg-yellow {
+    background-color: #f89c2c !important;
+}
+
+theme.min.css:2
+.btn-xs {
+    font-size: 11px;
+    padding: 4px 8px;
+}
+
+.vd_btn {
+    background-color: #DDDDDD;
+    color: #FFFFFF;
+}
+
+.btn-xs, .btn-group-xs>.btn {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+bootstrap.min.css:5
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+transition: all .3s ease 0s;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

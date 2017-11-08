@@ -1,0 +1,76 @@
+body {
+	margin: 0;
+}
+
+		.footer {
+			width: 97.5%;
+			height: 850px;	
+			position: absolute;			
+			padding: 1rem;
+			background-color: black;	//#efefef or black
+		}
+
+		#table {
+			width: 70%;
+			margin: auto;
+			text-align: center;
+			margin-left: 210px;
+			margin-top: 15px;		}
+
+		#table td {
+			max-width: 100px;
+			height: 25px;
+			text-align: left;			
+			font: 18px 'Ubuntu','Trebuchet MS',Arial,sans-serif;
+			font-weight: bold;
+			color: #dc143c;			#dc143c
+		}
+
+		a {
+			text-decoration: none;
+			color: #00ffff;				//#989898   //#00ffff
+		}
+
+		a:link {
+			font: 18px 'Ubuntu','Trebuchet MS',Arial,sans-serif;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+		#bottom {
+			text-align: center;
+		}
+
+		#bottom p {
+			color: #989898;
+			font: 18px 'Ubuntu','Trebuchet MS',Arial,sans-serif;
+		}
+
+		#top {
+			text-align: center;
+			color: #585858;
+			font: 36px 'Ubuntu','Trebuchet MS',Arial,sans-serif;
+			display: block;
+		}
+
+		#top p {
+			font-weight: bold;
+		}
+
+		#mid {
+			width: 1080px;
+			height: 260px;		
+		}
+
+		#mid p {
+			color: #585858;
+    		font: 16px/24px 'Ubuntu','Trebuchet MS',Arial,sans-serif;
+		}
+		
+		hr {
+			border-top: 2px dotted #8c8b8b;
+		    margin: 30px -15px 20px;
+		    border: 0;
+		    border-top: 1px solid #ccc;
+		}
